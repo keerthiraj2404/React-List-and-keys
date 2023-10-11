@@ -34,7 +34,7 @@ const App = () => (
   <div className="list-container">
     <h1 className="title">Users List</h1>
     <ul>
-      {userDetailsList.map(eachItem => (
+      {userDetailsList.map((eachItem) => (
         <UserProfile userDetails={eachItem} key={eachItem.id} />
       ))}
     </ul>
